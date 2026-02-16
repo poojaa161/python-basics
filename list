@@ -1,0 +1,51 @@
+
+
+# Create a list
+numbers = [10, 5, 20, 15, 5]
+
+print("Original List:", numbers)
+
+# Length of list
+print("Length:", len(numbers))
+
+# Access elements
+print("First element:", numbers[0])
+print("Last element:", numbers[-1])
+
+# Add element
+numbers.append(25)
+print("After append:", numbers)
+
+# Insert element at specific position
+numbers.insert(2, 100)
+print("After insert:", numbers)
+
+# Remove element
+numbers.remove(5)   # removes first occurrence
+print("After remove:", numbers)
+
+# Pop element (removes last element)
+popped_value = numbers.pop()
+print("Popped value:", popped_value)
+print("After pop:", numbers)
+
+# Sort list
+numbers.sort()
+print("Sorted list:", numbers)
+
+# Reverse list
+numbers.reverse()
+print("Reversed list:", numbers)
+
+# Loop through list
+print("Looping through list:")
+for num in numbers:
+    print(num)
+
+# Count occurrence
+count_5 = numbers.count(5)
+print("Count of 5:", count_5)
+
+# Find maximum and minimum
+print("Maximum value:", max(numbers))
+print("Minimum value:", min(numbers))
